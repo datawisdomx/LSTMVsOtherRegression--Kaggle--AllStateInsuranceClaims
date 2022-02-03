@@ -20,8 +20,8 @@ The results show that
 •	Random Forest takes over 1 hr and gives results similar to XGBoost                                                             
 •	Note – running time is on a basic MacBook Pro, will be faster on better CPU/GPU cloud
 
-Submitting and comparing the results on Kaggle against global leaderboard, the overall results are not good
-•	No 1 rank score (MAE) is 1109.7
+Submitting and comparing the results on Kaggle against global leaderboard, the overall results are not good                     
+•	No 1 rank score (MAE) is 1109.7                                                                                               
 •	XGBoost score (MAE) of 1184.5 has rank 2088
 
 The results can be improved by adding more layers to LSTM or ANN networks or hyperparameter tuning for other algorithms, but relatively LSTM will still underperform. That was the objective of this article. 
