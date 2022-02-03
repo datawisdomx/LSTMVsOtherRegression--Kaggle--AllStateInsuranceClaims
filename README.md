@@ -15,14 +15,14 @@ The code follows the standard data science steps (load, wrangle, encode, scale, 
 4.	Random Forest
 
 The results show that 
-•	LSTMs gave the worst results (high RMSE) and also take a long time to run, over 2 hrs
-•	XGBoost and a simple 4 layer ANN gave better results (low RMSE) without any hyperparameter tuning. They only took 3-10 minutes to run
-•	Random Forest takes over 1 hr and gives results similar to XGBoost
+•	LSTMs gave the worst results (high Mean Absolute Error MAE) and also take a long time to run, over 2 hrs                       
+•	XGBoost and a simple 4 layer ANN gave better results (low MAE) without any hyperparameter tuning. They only took 3-10 minutes to run                                                                                                                           
+•	Random Forest takes over 1 hr and gives results similar to XGBoost                                                             
 •	Note – running time is on a basic MacBook Pro, will be faster on better CPU/GPU cloud
 
 Submitting and comparing the results on Kaggle against global leaderboard, the overall results are not good
-•	No 1 rank score is 1109.7
-•	XGBoost score of 1184.5 has rank 2088
+•	No 1 rank score (MAE) is 1109.7
+•	XGBoost score (MAE) of 1184.5 has rank 2088
 
 The results can be improved by adding more layers to LSTM or ANN networks or hyperparameter tuning for other algorithms, but relatively LSTM will still underperform. That was the objective of this article. 
 Hope it helps in further understanding of deep learning algorithms and their applications.
